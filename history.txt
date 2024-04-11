@@ -1,0 +1,121 @@
+    1  git
+    2  cd ~/.ssh
+    3  ls -al
+    4  ~/.ssh
+    5  ls -al
+    6  cd .ssh
+    7  cd ~/.ssh
+    8  ls -al
+    9  cd .ssh
+   10  cat id_rsa.pub
+   11  clear
+   12  git config --global user.name skrypnykyuliia
+   13  git config --global user.email "yulscr5@gmail.com"
+   14  git config --global -l
+   15  ssh -T git@github.com
+   16  ssh -T git@github.com
+   17  mkdir git_intro
+   18  cd git_intro
+   19  git init
+   20  git add cat.jpg
+   21  git commit -m "Added photo"
+   22  git branch -M main
+   23  git remote add origin git@github.com:skrypnykyuliia/git_intro.git
+   24  git push -u origin main
+   25  clar
+   26  clear
+   27  git init
+   28  git add cat
+   29  git add cat.jpg
+   30  git commit -m "Added photo"
+   31  mkdir git_intro
+   32  cd git_intro
+   33  git init
+   34  mkdir git_intro
+   35  cd git_intro
+   36  git init
+   37  git add cat.jpg
+   38  git commit -m "Added photo"
+   39  git branch -M main
+   40  git remote add origin git@github.com:skrypnykyuliia/git_intro.git
+   41  git push -u origin main
+   42  git pull origin main
+   43  git push -u origin main
+   44  git pull
+   45  git push -u origin main
+   46  git remote add origin git@github.com:skrypnykyuliia/git_intro.git
+   47  git push -u origin main
+   48  git reset --hard HEAD
+   49  git pull origin main
+   50  git pull origin main --allow-unrelated-histories
+   51  git clone git@github.com:skrypnykyuliia/git_intro.git
+   52  git init
+   53  ls -al
+   54  cd git_intro
+   55  git init
+   56  git init
+   57  git add cat.jpg
+   58  git commit -m "Добавлена картинка"
+   59  git remote add origin git@github.com:skrypnykyuliia/git_intro.git
+   60  git push -u origin main
+   61  git init git-branch
+   62  git checkout -b gitignore
+   63  nano .gitignore
+   64  git add .gitignore
+   65  git commit -m "Add .gitignore file"
+   66  git remote add origin <URL_вашего_репозитория_git-branch>
+   67  ssh -T git@github.com
+   68  git remote add origin <https://github.com/skrypnykyuliia/git-branch.git>
+   69  git init git-branch
+   70  cd git-branch
+   71  git checkout -b gitignore
+   72  nano .gitignore
+   73  git add .gitignore
+   74  git commit -m "Add .gitignore file"
+   75  git remote add origin <https://github.com/skrypnykyuliia/git-branch.git>
+   76  git remote add origin https://github.com/skrypnykyuliia/git-branch.git
+   77  git push origin gitignore
+   78  git remote add origin https://github.com/skrypnykyuliia/git-branch.git
+   79  git push origin gitignore
+   80  git clone <https://github.com/skrypnykyuliia/yulskr.git>
+   81  cd yulskr
+   82  cd my-new-repo
+   83  git clone https://github.com/skrypnykyuliia/yulskr.git
+   84  cd yulskr
+   85  git branch feature
+   86  git checkout feature
+   87  git add README.md .gitignore
+   88  git commit -m "Добавлены файлы README.md и .gitignore"
+   89  git add README.md .gitignore
+   90  git checkout -b feature
+   91  git add README.md .gitignore
+   92  ls -a
+   93  git clone git@github.com:skrypnykyuliia/GitHub.git
+   94  cd GitHub
+   95  git branch feature
+   96  git checkout feature
+   97  git add README.md .gitignore
+   98  ls -a
+   99  git clone https://github.com/skrypnykyuliia/GitHub.git
+  100  cd GitHub
+  101  git checkout -b feature
+  102  git add README.md .gitignore
+  103  cd Git
+  104  ls
+  105  cd GitHub
+  106  ls -a
+  107  echo "# My Project" > README.md
+  108  touch .gitignore
+  109  git add README.md .gitignore
+  110  git commit -m "Добавлены файлы README.md и .gitignore"
+  111  git push origin feature
+  112  git commit --amend -m "Добавлены файлы README.md и .gitignore amend"
+  113  git push origin feature --force
+  114  git push origin feature --force
+  115  git checkout main
+  116  git checkout master
+  117  git branch main
+  118  git checkout main
+  119  git merge feature
+  120  git push origin main
+  121  history > history.txt
